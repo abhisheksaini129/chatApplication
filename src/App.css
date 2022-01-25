@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+}
+@media (max-aspect-ratio: 7/10){
+    .JoinPage{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+    }
+    .JoinContainer{
+        width: 100% !important;
+        margin-top: 30vw !important;
+        /* border: 2px solid white; */
+    }
+    .JoinContainer>img{
+        width: 30vw !important;
+        border-radius: 50%;
+    }
+    .JoinContainer>h1{
+        /* color: white; */
+        font-size: 6vw !important;
+        width: 55vw !important;
+        text-align: center;
+        padding: 3vw !important;
+        border-bottom: .6vw solid white !important;
+        
+    }
+    #joinInput{
+        width: 65vw !important;
+        padding: 4vw !important;  
+        font-size: 5vw !important;
+        margin: 5vw !important; 
+        box-sizing: border-box; 
+    }
+    .joinBtn{
+        width: 65vw !important;
+        padding: 4vw !important;  
+        font-size: 5vw !important;
+    }
+    
+        /* css of chat page  */
+        .chatContainer{
+            background-color: white;
+            height: 100% !important;
+            width:  100% !important;
+        }
+        .header{
+            width: 100% !important;
+            height: 10% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+        }
+        .header >h2{
+            margin: 8vw !important;
+            font-size: 5vw !important;
+        }
+        .header img{
+            margin: 6vw !important;
+            transform: scale(2) !important;
+        }
+        .header img:hover{
+            transform: scale(3);
+            
+        }
+        .chatBox{
+            height: 80% !important;
+        }
+        .inputBox{
+            height: 10% !important;
+        }
+        #chatInput{
+            padding:4vw !important ;
+            font-size:4vw !important;
+        }
+
+        /* css of message area  */
+
+        .messageBox{
+            /* width: initial !important; */
+            padding: 3vw !important;
+            margin: 3vw !important;
+            border-radius: 1.3vw !important;
+            font-size: 3.2vw !important;
+        }
+
+}
